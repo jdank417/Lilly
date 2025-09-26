@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0a2540;
+            border-bottom: 2px solid #00c2cb;
+            padding-bottom: 10px;
+        }
+        .test-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #00c2cb;
+        }
+        .test-section h2 {
+            margin-top: 0;
+            color: #0a2540;
+        }
+        .test-section p {
+            margin-bottom: 10px;
+        }
+        .test-section code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .button {
+            display: inline-block;
+            background-color: #00c2cb;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #0a84ff;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .file-list li:last-child {
+            border-bottom: none;
+        }
+        .file-list a {
+            color: #0a84ff;
+            text-decoration: none;
+        }
+        .file-list a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dr. Lilly Hanley Website Test</h1>
+        
+        <div class="test-section">
+            <h2>Project Files</h2>
+            <p>The following files have been created for the website:</p>
+            <ul class="file-list">
+                <li><a href="index.html" target="_blank">index.html</a> - Main HTML file</li>
+                <li><a href="css/styles.css" target="_blank">css/styles.css</a> - Main stylesheet</li>
+                <li><a href="js/main.js" target="_blank">js/main.js</a> - JavaScript functionality</li>
+                <li><a href="assets/lab-bg.svg" target="_blank">assets/lab-bg.svg</a> - Lab background image</li>
+                <li><a href="assets/scientist.svg" target="_blank">assets/scientist.svg</a> - Scientist profile image</li>
+            </ul>
+        </div>
+        
+        <div class="test-section">
+            <h2>Testing Instructions</h2>
+            <p>To test the website, click the button below to open the main page in a new tab:</p>
+            <a href="index.html" class="button" target="_blank">Open Website</a>
+            
+            <h3>Test the following features:</h3>
+            <ol>
+                <li>Verify that the hero section loads with animations</li>
+                <li>Test navigation links for smooth scrolling</li>
+                <li>Check that the "Enter the Lab" button scrolls to the virtual lab section</li>
+                <li>Test the microscope controls in the virtual lab:
+                    <ul>
+                        <li>Magnification slider should scale the yeast cells</li>
+                        <li>Focus slider should adjust blur</li>
+                        <li>Stain toggle button should change cell appearance</li>
+                        <li>Time lapse button should speed up animations temporarily</li>
+                    </ul>
+                </li>
+                <li>Verify that research section animations are working</li>
+                <li>Test responsive design by resizing the browser window</li>
+            </ol>
+        </div>
+        
+        <div class="test-section">
+            <h2>Browser Compatibility</h2>
+            <p>This website should work in all modern browsers including:</p>
+            <ul>
+                <li>Google Chrome</li>
+                <li>Mozilla Firefox</li>
+                <li>Safari</li>
+                <li>Microsoft Edge</li>
+            </ul>
+            <p>Some animations may not work in older browsers that don't support modern CSS and JavaScript features.</p>
+        </div>
+    </div>
+</body>
+</html>

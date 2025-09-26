@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Lilly Hanley | Biotechnologist</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="lab-environment">
+        <div class="microscope-view">
+            <div class="yeast-container"></div>
+        </div>
+        
+        <header>
+            <nav>
+                <div class="logo">Dr. Lilly Hanley</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#lab">Virtual Lab</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero" class="hero">
+                <div class="hero-content">
+                    <h1>Dr. Lilly Hanley</h1>
+                    <h2>Biotechnologist | Yeast & Intercellular Transport Specialist</h2>
+                    <p>Exploring the microscopic world of yeast cells and their complex transport mechanisms</p>
+                    <button class="cta-button">Enter the Lab</button>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2>About Dr. Hanley</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="lab-coat-avatar"></div>
+                    </div>
+                    <div class="about-text">
+                        <p>Dr. Lilly Hanley is a pioneering biotechnologist specializing in yeast cellular biology and intercellular transport mechanisms. With over a decade of research experience, she has made significant contributions to our understanding of how cellular components move within and between yeast cells.</p>
+                        <p>Her innovative approaches combine advanced microscopy techniques with genetic engineering to visualize and manipulate transport processes in real-time, providing unprecedented insights into these fundamental biological mechanisms.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="research" class="research">
+                <h2>Research Focus</h2>
+                <div class="research-grid">
+                    <div class="research-card" id="vesicle-transport">
+                        <h3>Vesicular Transport</h3>
+                        <div class="research-visual vesicle-animation"></div>
+                        <p>Investigating how vesicles package and transport proteins between organelles in yeast cells.</p>
+                    </div>
+                    <div class="research-card" id="membrane-dynamics">
+                        <h3>Membrane Dynamics</h3>
+                        <div class="research-visual membrane-animation"></div>
+                        <p>Studying the fluidity and selective permeability of yeast cell membranes.</p>
+                    </div>
+                    <div class="research-card" id="protein-trafficking">
+                        <h3>Protein Trafficking</h3>
+                        <div class="research-visual protein-animation"></div>
+                        <p>Tracking the movement of specific proteins through the secretory pathway.</p>
+                    </div>
+                    <div class="research-card" id="organelle-communication">
+                        <h3>Organelle Communication</h3>
+                        <div class="research-visual organelle-animation"></div>
+                        <p>Exploring how different cellular compartments coordinate their activities.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="lab" class="virtual-lab">
+                <h2>Virtual Laboratory</h2>
+                <div class="lab-interface">
+                    <div class="microscope-controls">
+                        <div class="control-panel">
+                            <div class="slider-container">
+                                <label for="magnification">Magnification</label>
+                                <input type="range" id="magnification" min="1" max="100" value="50">
+                            </div>
+                            <div class="slider-container">
+                                <label for="focus">Focus</label>
+                                <input type="range" id="focus" min="1" max="100" value="50">
+                            </div>
+                            <div class="buttons">
+                                <button id="stain-toggle">Apply Stain</button>
+                                <button id="time-lapse">Time Lapse</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="specimen-view">
+                        <div class="yeast-simulation">
+                            <!-- Yeast cells will be dynamically generated here -->
+                        </div>
+                        <div class="data-overlay"></div>
+                    </div>
+                    <div class="lab-notes">
+                        <h3>Observation Notes</h3>
+                        <div class="notes-content">
+                            <p>Begin your observation by adjusting the magnification and focus controls. Apply different stains to highlight cellular structures.</p>
+                            <p>Watch for vesicle movement along the cytoskeleton and membrane dynamics in real-time.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="publications" class="publications">
+                <h2>Selected Publications</h2>
+                <div class="publications-list">
+                    <div class="publication">
+                        <h3>Vesicular Trafficking Pathways in Saccharomyces cerevisiae</h3>
+                        <p class="journal">Journal of Cell Biology, 2024</p>
+                        <p>A comprehensive analysis of protein transport mechanisms in budding yeast.</p>
+                    </div>
+                    <div class="publication">
+                        <h3>Membrane Dynamics During Cell Division in Yeast</h3>
+                        <p class="journal">Nature Biotechnology, 2023</p>
+                        <p>Novel insights into how membrane components are distributed during yeast cell division.</p>
+                    </div>
+                    <div class="publication">
+                        <h3>Intercellular Communication in Yeast Colonies</h3>
+                        <p class="journal">Science, 2022</p>
+                        <p>Discovery of signaling mechanisms that coordinate behavior across yeast populations.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Contact</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> lilly.hanley@biotech.edu</p>
+                        <p><strong>Lab:</strong> Cellular Transport Research Laboratory</p>
+                        <p><strong>Department:</strong> Biotechnology and Cellular Biology</p>
+                        <p><strong>Address:</strong> 123 Science Way, Research Park, CA 94305</p>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">Dr. Lilly Hanley</div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#research">Research</a>
+                    <a href="#publications">Publications</a>
+                    <a href="#lab">Virtual Lab</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">ResearchGate</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Lilly Hanley. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <div class="lab-particles"></div>
+</body>
+</html>
